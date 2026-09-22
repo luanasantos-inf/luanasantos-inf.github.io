@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luana Santos — Desenvolvedora Front-End</title>
+    <meta name="description"
+        content="Conheça os projetos, habilidades e trajetória de Luana Santos, desenvolvedora front-end focada em criar interfaces web eficientes e de alta qualidade.">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="wrap nav">
+            <div class="logo">&lt;/Luana Santos&gt;</div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="nav-ctrls">
+                <button class="ctrl-btn" id="lang-toggle" type="button" aria-label="Switch language">🇧🇷</button>
+                <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="wrap hero" id="home">
+            <div>
+                <h1 class="titulo">Olá, eu sou a Luana Santos!</h1>
+                <p class="bio">
+                    Da infraestrutura ao código e à interface: criando soluções digitais completas de ponta a ponta.
+                </p>
+                <div class="tags">
+                    <span class="tag">
+                        Sistemas para Internet — IFRS
+                    </span>
+                    <span class="tag">
+                        Téc. em Redes de Computadores — SENAI
+                    </span>
+                    <span class="tag">
+                        Téc. em Informática — Alcides Maya
+                    </span>
+                    <span class="tag">
+                        Certificado profissional de Suporte em TI — JA Brasil
+                    </span>
+                    <span class="tag">
+                        Residência Fullstack — Instituto Eldorado
+                    </span>
+                </div>
+            </div>
+            <img class="hero-photo" src="assets/images/fotoportfolio.jpeg" alt="Foto de Luana Santos">
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="wrap" id="skills">
+            <h2 class="section-title i18n" data-pt="Habilidades" data-en="Skills">Habilidades</h2>
+            <div class="skills-layout">
+                <div class="skill-filters" id="skill-filters">
+                    <button class="active" data-filter="todos">
+                        <span class="i18n" data-pt="Todos" data-en="All">Todos</span>
+                    </button>
+                    <button data-filter="backend"><span class="i18n" data-pt="Backend"
+                            data-en="Backend">Backend</span></button>
+                    <button data-filter="frontend"><span class="i18n" data-pt="Frontend"
+                            data-en="Frontend">Frontend</span></button>
+                    <button data-filter="banco"><span class="i18n" data-pt="Banco de dados" data-en="Databases">Banco de
+                            dados</span></button>
+                    <button data-filter="ferramentas"><span class="i18n" data-pt="Ferramentas"
+                            data-en="Tools">Ferramentas</span></button>
+                    <button data-filter="automacao"><span class="i18n" data-pt="Automação"
+                            data-en="Automation">Automação</span></button>
+                </div>
+                <div class="skills-grid" id="skills-grid">
+                    <div class="skill-card" data-category="backend">
+                        <div class="skill-icon"><i class="devicon-java-plain colored"></i></div><span
+                            class="name">Java</span>
+                    </div>
+                    <div class="skill-card" data-category="backend">
+                        <div class="skill-icon"><i class="devicon-python-plain colored"></i></div><span
+                            class="name">Python</span>
+                    </div>
+                    <div class="skill-card" data-category="backend">
+                        <div class="skill-icon"><i class="devicon-php-plain colored"></i></div><span
+                            class="name">PHP</span>
+                    </div>
+                    <div class="skill-card" data-category="backend">
+                        <div class="skill-icon"><i class="devicon-c-plain colored"></i></div><span class="name">C</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-icon"><i class="devicon-html5-plain colored"></i></div><span
+                            class="name">HTML</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-icon"><i class="devicon-css3-plain colored"></i></div><span
+                            class="name">CSS</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-icon"><i class="devicon-javascript-plain colored"></i></div><span
+                            class="name">JavaScript</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-icon"><i class="devicon-react-original colored"></i></div><span
+                            class="name">React</span>
+                    </div>
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-icon"><i class="devicon-flutter-plain colored"></i></div><span
+                            class="name">Flutter</span>
+                    </div>
+                    <div class="skill-card" data-category="banco">
+                        <div class="skill-icon"><i class="devicon-postgresql-plain colored"></i></div><span
+                            class="name">PostgreSQL</span>
+                    </div>
+                    <div class="skill-card" data-category="banco">
+                        <div class="skill-icon"><i class="devicon-mysql-plain colored"></i></div><span
+                            class="name">MySQL</span>
+                    </div>
+                    <div class="skill-card" data-category="ferramentas">
+                        <div class="skill-icon"><i class="devicon-git-plain colored"></i></div><span
+                            class="name">Git</span>
+                    </div>
+                    <div class="skill-card" data-category="ferramentas">
+                        <div class="skill-icon"><i class="devicon-github-original"></i></div><span
+                            class="name">GitHub</span>
+                    </div>
+                    <div class="skill-card" data-category="ferramentas">
+                        <div class="skill-icon"><i class="devicon-postman-plain colored"></i></div><span
+                            class="name">Postman</span>
+                    </div>
+                    <div class="skill-card" data-category="ferramentas">
+                        <div class="skill-icon"><i class="devicon-figma-plain colored"></i></div><span
+                            class="name">Figma</span>
+                    </div>
+                    <div class="skill-card" data-category="automacao">
+                        <div class="skill-icon"><img src="assets/images/n8n.png" alt="N8N"></div><span
+                            class="name">N8N</span>
+                    </div>
+                    <div class="skill-card" data-category="automacao">
+                        <div class="skill-icon"><img src="assets/images/hubspot.png" alt="Hubspot"></div><span
+                            class="name">Hubspot</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="wrap" id="projects">
+            <h2 class="section-title i18n" data-pt="Projetos" data-en="Projects">Projetos</h2>
+            <div class="carousel-wrap">
+                <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">←</button>
+                <div class="carousel" id="carousel">
+                    <article class="project-card">
+                        <div class="project-body">
+                            <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão
+                                Financeira</h3>
+                            <p class="i18n" data-pt="Banco de dados para registro e organização de gastos pessoais."
+                                data-en="Database for recording and organizing personal expenses.">
+                                Banco de dados para registro e organização de gastos pessoais.
+                            </p>
+                            <div class="project-divider"></div>
+                            <div class="project-stack">
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/emilyqdrosa/gestao-financeira-db" target="_blank"
+                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                    Repositório</a>
+                            </div>
+                        </div>
+
+                        <div class="project-detail" hidden>
+                            <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão
+                                Financeira</h3>
+
+                            <p class="i18n"
+                                data-pt="Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais. <br><br> Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers. <br><br> Então, o diferencial desse projeto são seus <strong>triggers</strong>:"
+                                data-en="Solution for Full-stack Residency challenge, a database for recording and organizing personal expenses. <br><br> I started the project by creating a conceptual and logical diagram. While structuring the database and adding values to it, I realized the need for triggers. <br><br> Therefore, the standout feature of this project are its <strong>triggers</strong>:">
+                                Solução para um desafio da Residência Fullstack, um banco de dados para registro e
+                                organização de gastos pessoais. <br><br>
+                                Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava
+                                estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers.
+                                <br><br>
+                                Então, o diferencial desse projeto são seus <strong>triggers</strong>:
+                            </p>
+
+                            <ul class="project-highlights">
+                                <li class="i18n"
+                                    data-pt="<strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra."
+                                    data-en="<strong>Payment Validation:</strong> prevents saving to the database if the sum of payments from different payment methods does not exactly equal the total purchase amount.">
+                                    <strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos
+                                    pagamentos por forma de pagamento diferente não for exatamente igual ao valor total
+                                    da compra.
+                                </li>
+                                <li class="i18n"
+                                    data-pt="<strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação."
+                                    data-en="<strong>Automatic Debit:</strong> checks if the user has enough balance before the purchase. If they do, it automatically deducts the amount; if not, it blocks the operation.">
+                                    <strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra.
+                                    Se tiver, desconta o valor automaticamente; se não, bloqueia a operação.
+                                </li>
+                            </ul>
+
+                            <div class="project-stack">
+                                <span>Java 21</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/emilyqdrosa/gestao-financeira-db" target="_blank"
+                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                    Repositório</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-body">
+                            <h3 class="i18n" data-pt="Detector de Golpe" data-en="Fraud Detector">Detector de Golpe</h3>
+                            <p class="i18n"
+                                data-pt="Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando um sistema de pontuação."
+                                data-en="A system that detects possible scams from keywords and links by utilizing a scoring system.">
+                                Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando
+                                um sistema de pontuação.
+                            </p>
+                            <div class="project-divider"></div>
+                            <div class="project-stack">
+                                <span>Java 21</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/emilyqdrosa/residencia-desafio-seguranca" target="_blank"
+                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                    Repositório</a>
+                            </div>
+                        </div>
+
+                        <div class="project-detail" hidden>
+                            <h3 class="i18n" data-pt="Detector de Golpe" data-en="Fraud Detector">Detector de Golpe</h3>
+
+                            <p class="i18n" data-pt="Solução para um desafio da Residência Fullstack, um sistema em Java que identifique possíveis golpes. 
+                        <br><br> Começamos o projeto com um fluxograma, estruturando como seria o fluxo do sistema. <br><br> 
+                        Principais funcionalidades:"
+                                data-en="Solution to a Fullstack Residency challenge: a Java system that identifies potential scams. <br><br> We started the project with a flowchart, structuring how the system flow would work. <br><br> Main features:">
+                                Solução para um desafio da Residência Fullstack, um sistema em Java que identifique
+                                possíveis golpes.
+                                <br><br> Começamos o projeto com um fluxograma, estruturando como seria o fluxo do
+                                sistema. <br><br>
+                                Principais funcionalidades:
+                            </p>
+
+                            <ul class="project-highlights">
+                                <li class="i18n"
+                                    data-pt="<strong>Sistema de Pontuação:</strong> analisa as mensagens contra um arquivo CSV de palavras suspeitas. A presença desses termos eleva a pontuação de risco e a probabilidade de fraude."
+                                    data-en="<strong>Scoring System:</strong> analyzes messages against a CSV file of suspicious words. The presence of these terms raises the risk score and the probability of fraud.">
+                                    <strong>Sistema de Pontuação:</strong> analisa as mensagens contra um arquivo CSV de
+                                    palavras suspeitas. A presença desses termos eleva a pontuação de risco e a
+                                    probabilidade de fraude.
+                                </li>
+                                <li class="i18n"
+                                    data-pt="<strong>Verificador de Links:</strong> examina as URLs fornecidas para validar se correspondem a padrões seguros e confiáveis."
+                                    data-en="<strong>Link Verifier:</strong> examines provided URLs to validate whether they match secure and trusted patterns.">
+                                    <strong>Verificador de Links:</strong> examina as URLs fornecidas para validar se
+                                    correspondem a padrões seguros e confiáveis.
+                                </li>
+                            </ul>
+
+                            <div class="project-stack">
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/emilyqdrosa/residencia-desafio-seguranca" target="_blank"
+                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                    Repositório</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <button class="carousel-btn next" id="carousel-next" aria-label="Próximo">→</button>
+            </div>
+        </section>
+
+
+        <section class="wrap" id="contact">
+            <h2 class="section-title i18n" data-pt="Contato" data-en="Contact">Contato</h2>
+            <div class="contact-links">
+                <a class="underline" href="mailto:luanasantos.inf@gmail.com">emilyqdrosa@gmail.com</a>
+                <a href="https://www.linkedin.com/in/emily-quevedo/" target="_blank"
+                    rel="noopener">www.linkedin.com/in/emily-quevedo</a>
+                <a href="https://github.com/emilyqdrosa" target="_blank" rel="noopener">www.github.com/emilyqdrosa</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>&lt;/LuanaSantos&gt;</footer>
+
+    <button class="to-top" id="to-top" aria-label="Voltar ao topo">↑</button>
+
+    <!-- popup de detalhes do projeto -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-box">
+            <button class="modal-close" id="project-modal-close" aria-label="Fechar">✕</button>
+            <div id="project-modal-body"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
