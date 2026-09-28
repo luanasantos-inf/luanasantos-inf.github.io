@@ -82,7 +82,7 @@ header {
   box-sizing: border-box;
 }
 
-.logo {
+.logo{
   font-family: var(--fonte-titulos);
   font-size: 1.5rem;
   color: var(--cor-titulos);
@@ -168,20 +168,48 @@ header {
   padding: 4.5rem 0 2.5rem;
 }
 
-
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  align-items: center;
+  gap: 0.6rem;
   margin-bottom: 1.4rem;
 }
 
 .tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
-  color: var(--texto);
-  padding: 0.55rem 1.1rem;
-  
+  font-weight: 500;
+  line-height: 1;
+
+  color: var(--cor-textos);
+  background-color: transparent;
+
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--cor-titulos);
+  border-radius: 999px;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.tag:hover {
+  color: var(--background);
+  background-color: var(--cor-titulos);
+  border-color: var(--cor-titulos);
+  transform: translateY(-2px);
+}
+
+.titulo-secoes{
+  color:var(--cor-titulos);
+  font-family: var(--fonte-titulos);
 }
 
 .cv-btn {
@@ -592,12 +620,14 @@ header {
 }
 
 footer {
-  color:#ffffff;
-  text-align: center;
-  padding: 4rem 1rem 3rem;
-  margin-top: 3rem;
-  color: var(--muted);
-  font-family: var(--font-display);
-  font-size: 1rem;
-  border-top: 1px solid var(--border);
+  font-family: var(--fonte-titulos);
+  font-size: 1.5rem;
+  color: var(--cor-titulos);
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
+
