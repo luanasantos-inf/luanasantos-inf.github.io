@@ -4,7 +4,7 @@
   --titulo: #c0ffee;
   --texto: #B0B0B0;
   --accent: #FF5722;
-  --fonte-titulos: 'Bebas Neue',sans-serif;
+  --fonte-titulos:"Press Start 2P", system-ui;
   --radius-sm: 4px;
   --radius-md: 6px;
   --radius-lg: 8px;
@@ -76,7 +76,8 @@ button {
   box-sizing: border-box;
 }
 
-.wrap {
+.contatos {
+  color:#ffffff;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -109,6 +110,7 @@ header {
   color: var(--titulo);
   font-weight: 800;
   letter-spacing: 1px;
+
 }
 
 .nav-links {
@@ -612,6 +614,7 @@ header {
 }
 
 footer {
+  color:#ffffff;
   text-align: center;
   padding: 4rem 1rem 3rem;
   margin-top: 3rem;

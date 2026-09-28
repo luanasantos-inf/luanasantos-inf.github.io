@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luana Santos — Desenvolvedora Front-End</title>
+    <title>Luana Santos — Desenvolvedora front-end</title>
     <meta name="description"
         content="Conheça os projetos, habilidades e trajetória de Luana Santos, desenvolvedora front-end focada em criar interfaces web eficientes e de alta qualidade.">
     <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 
 </head>
@@ -57,113 +57,95 @@
                     </span>
                 </div>
             </div>
-            <img class="hero-photo" src="assets/images/fotoportfolio.jpeg" alt="Foto de Luana Santos">
+            <img class="hero-photo" src="./Luana Santos.jfif" alt="Foto de Luana Santos">
         </section>
 
         <!-- ================= SKILLS ================= -->
         <section class="wrap" id="skills">
-            <h2 class="section-title i18n" data-pt="Habilidades" data-en="Skills">Habilidades</h2>
-            <div class="skills-layout">
-                <div class="skill-filters" id="skill-filters">
-                    <button class="active" data-filter="todos">
-                        <span class="i18n" data-pt="Todos" data-en="All">Todos</span>
-                    </button>
-                    <button data-filter="backend"><span class="i18n" data-pt="Backend"
-                            data-en="Backend">Backend</span></button>
-                    <button data-filter="frontend"><span class="i18n" data-pt="Frontend"
-                            data-en="Frontend">Frontend</span></button>
-                    <button data-filter="banco"><span class="i18n" data-pt="Banco de dados" data-en="Databases">Banco de
-                            dados</span></button>
-                    <button data-filter="ferramentas"><span class="i18n" data-pt="Ferramentas"
-                            data-en="Tools">Ferramentas</span></button>
-                    <button data-filter="automacao"><span class="i18n" data-pt="Automação"
-                            data-en="Automation">Automação</span></button>
+            <h2 class="section-title i18n" data-pt="Habilidades">Habilidades</h2>
+
+            <div class="skills-grid" id="skills-grid">
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-java-plain colored"></i></div><span
+                        class="name">Java</span>
                 </div>
-                <div class="skills-grid" id="skills-grid">
-                    <div class="skill-card" data-category="backend">
-                        <div class="skill-icon"><i class="devicon-java-plain colored"></i></div><span
-                            class="name">Java</span>
-                    </div>
-                    <div class="skill-card" data-category="backend">
-                        <div class="skill-icon"><i class="devicon-python-plain colored"></i></div><span
-                            class="name">Python</span>
-                    </div>
-                    <div class="skill-card" data-category="backend">
-                        <div class="skill-icon"><i class="devicon-php-plain colored"></i></div><span
-                            class="name">PHP</span>
-                    </div>
-                    <div class="skill-card" data-category="backend">
-                        <div class="skill-icon"><i class="devicon-c-plain colored"></i></div><span class="name">C</span>
-                    </div>
-                    <div class="skill-card" data-category="frontend">
-                        <div class="skill-icon"><i class="devicon-html5-plain colored"></i></div><span
-                            class="name">HTML</span>
-                    </div>
-                    <div class="skill-card" data-category="frontend">
-                        <div class="skill-icon"><i class="devicon-css3-plain colored"></i></div><span
-                            class="name">CSS</span>
-                    </div>
-                    <div class="skill-card" data-category="frontend">
-                        <div class="skill-icon"><i class="devicon-javascript-plain colored"></i></div><span
-                            class="name">JavaScript</span>
-                    </div>
-                    <div class="skill-card" data-category="frontend">
-                        <div class="skill-icon"><i class="devicon-react-original colored"></i></div><span
-                            class="name">React</span>
-                    </div>
-                    <div class="skill-card" data-category="frontend">
-                        <div class="skill-icon"><i class="devicon-flutter-plain colored"></i></div><span
-                            class="name">Flutter</span>
-                    </div>
-                    <div class="skill-card" data-category="banco">
-                        <div class="skill-icon"><i class="devicon-postgresql-plain colored"></i></div><span
-                            class="name">PostgreSQL</span>
-                    </div>
-                    <div class="skill-card" data-category="banco">
-                        <div class="skill-icon"><i class="devicon-mysql-plain colored"></i></div><span
-                            class="name">MySQL</span>
-                    </div>
-                    <div class="skill-card" data-category="ferramentas">
-                        <div class="skill-icon"><i class="devicon-git-plain colored"></i></div><span
-                            class="name">Git</span>
-                    </div>
-                    <div class="skill-card" data-category="ferramentas">
-                        <div class="skill-icon"><i class="devicon-github-original"></i></div><span
-                            class="name">GitHub</span>
-                    </div>
-                    <div class="skill-card" data-category="ferramentas">
-                        <div class="skill-icon"><i class="devicon-postman-plain colored"></i></div><span
-                            class="name">Postman</span>
-                    </div>
-                    <div class="skill-card" data-category="ferramentas">
-                        <div class="skill-icon"><i class="devicon-figma-plain colored"></i></div><span
-                            class="name">Figma</span>
-                    </div>
-                    <div class="skill-card" data-category="automacao">
-                        <div class="skill-icon"><img src="assets/images/n8n.png" alt="N8N"></div><span
-                            class="name">N8N</span>
-                    </div>
-                    <div class="skill-card" data-category="automacao">
-                        <div class="skill-icon"><img src="assets/images/hubspot.png" alt="Hubspot"></div><span
-                            class="name">Hubspot</span>
-                    </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-python-plain colored"></i></div><span
+                        class="name">Python</span>
                 </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-php-plain colored"></i></div><span class="name">PHP</span>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-c-plain colored"></i></div><span class="name">C</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-html5-plain colored"></i></div><span
+                        class="name">HTML</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-css3-plain colored"></i></div><span
+                        class="name">CSS</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-javascript-plain colored"></i></div><span
+                        class="name">JavaScript</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-react-original colored"></i></div><span
+                        class="name">React</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-flutter-plain colored"></i></div><span
+                        class="name">Flutter</span>
+                </div>
+                <div class="skill-card" data-category="banco">
+                    <div class="skill-icon"><i class="devicon-postgresql-plain colored"></i></div><span
+                        class="name">PostgreSQL</span>
+                </div>
+                <div class="skill-card" data-category="banco">
+                    <div class="skill-icon"><i class="devicon-mysql-plain colored"></i></div><span
+                        class="name">MySQL</span>
+                </div>
+                <div class="skill-card" data-category="ferramentas">
+                    <div class="skill-icon"><i class="devicon-git-plain colored"></i></div><span class="name">Git</span>
+                </div>
+                <div class="skill-card" data-category="ferramentas">
+                    <div class="skill-icon"><i class="devicon-github-original"></i></div><span
+                        class="name">GitHub</span>
+                </div>
+                <div class="skill-card" data-category="ferramentas">
+                    <div class="skill-icon"><i class="devicon-postman-plain colored"></i></div><span
+                        class="name">Postman</span>
+                </div>
+                <div class="skill-card" data-category="ferramentas">
+                    <div class="skill-icon"><i class="devicon-figma-plain colored"></i></div><span
+                        class="name">Figma</span>
+                </div>
+                <div class="skill-card" data-category="automacao">
+                    <div class="skill-icon"><img src="assets/images/n8n.png" alt="N8N"></div><span
+                        class="name">N8N</span>
+                </div>
+                <div class="skill-card" data-category="automacao">
+                    <div class="skill-icon"><img src="assets/images/hubspot.png" alt="Hubspot"></div><span
+                        class="name">Hubspot</span>
+                </div>
+            </div>
             </div>
         </section>
 
 
         <!-- ================= PROJECTS ================= -->
         <section class="wrap" id="projects">
-            <h2 class="section-title i18n" data-pt="Projetos" data-en="Projects">Projetos</h2>
+            <h2 class="section-title i18n" data-pt="Projetos">Projetos</h2>
             <div class="carousel-wrap">
                 <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">←</button>
                 <div class="carousel" id="carousel">
                     <article class="project-card">
                         <div class="project-body">
-                            <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão
+                            <h3 class="i18n" data-pt="Gestão Financeira">Gestão
                                 Financeira</h3>
-                            <p class="i18n" data-pt="Banco de dados para registro e organização de gastos pessoais."
-                                data-en="Database for recording and organizing personal expenses.">
+                            <p class="i18n" data-pt="Banco de dados para registro e organização de gastos pessoais.">
                                 Banco de dados para registro e organização de gastos pessoais.
                             </p>
                             <div class="project-divider"></div>
@@ -171,38 +153,23 @@
                                 <span>PostgreSQL</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" target="_blank"
-                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
                                     Repositório</a>
                             </div>
                         </div>
 
                         <div class="project-detail" hidden>
-                            <h3 class="i18n" data-pt="Gestão Financeira" data-en="Financial Management">Gestão
+                            <h3 class="i18n" data-pt="Gestão Financeira">Gestão
                                 Financeira</h3>
 
-                            <p class="i18n"
-                                data-pt="Solução para um desafio da Residência Fullstack, um banco de dados para registro e organização de gastos pessoais. <br><br> Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers. <br><br> Então, o diferencial desse projeto são seus <strong>triggers</strong>:"
-                                data-en="Solution for Full-stack Residency challenge, a database for recording and organizing personal expenses. <br><br> I started the project by creating a conceptual and logical diagram. While structuring the database and adding values to it, I realized the need for triggers. <br><br> Therefore, the standout feature of this project are its <strong>triggers</strong>:">
-                                Solução para um desafio da Residência Fullstack, um banco de dados para registro e
-                                organização de gastos pessoais. <br><br>
-                                Comecei o projeto criando um diagrama conceitual e lógico, no momento que estava
-                                estruturando o banco e adicionando valores a ela, percebi a necessidade de triggers.
-                                <br><br>
-                                Então, o diferencial desse projeto são seus <strong>triggers</strong>:
-                            </p>
 
                             <ul class="project-highlights">
                                 <li class="i18n"
                                     data-pt="<strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra."
-                                    data-en="<strong>Payment Validation:</strong> prevents saving to the database if the sum of payments from different payment methods does not exactly equal the total purchase amount.">
-                                    <strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos
                                     pagamentos por forma de pagamento diferente não for exatamente igual ao valor total
-                                    da compra.
-                                </li>
+                                    da compra. </li>
                                 <li class="i18n"
                                     data-pt="<strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação."
-                                    data-en="<strong>Automatic Debit:</strong> checks if the user has enough balance before the purchase. If they do, it automatically deducts the amount; if not, it blocks the operation.">
                                     <strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra.
                                     Se tiver, desconta o valor automaticamente; se não, bloqueia a operação.
                                 </li>
@@ -212,8 +179,7 @@
                                 <span>Java 21</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" target="_blank"
-                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
                                     Repositório</a>
                             </div>
                         </div>
@@ -221,10 +187,9 @@
 
                     <article class="project-card">
                         <div class="project-body">
-                            <h3 class="i18n" data-pt="Detector de Golpe" data-en="Fraud Detector">Detector de Golpe</h3>
+                            <h3 class="i18n" data-pt="Detector de Golpe">Detector de Golpe</h3>
                             <p class="i18n"
-                                data-pt="Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando um sistema de pontuação."
-                                data-en="A system that detects possible scams from keywords and links by utilizing a scoring system.">
+                                data-pt="Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando um sistema de pontuação.">
                                 Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando
                                 um sistema de pontuação.
                             </p>
@@ -233,38 +198,33 @@
                                 <span>Java 21</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" target="_blank"
-                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">
                                     Repositório</a>
                             </div>
                         </div>
 
                         <div class="project-detail" hidden>
-                            <h3 class="i18n" data-pt="Detector de Golpe" data-en="Fraud Detector">Detector de Golpe</h3>
+                            <h3 class="i18n" data-pt="Detector de Golpe">Detector de Golpe</h3>
 
                             <p class="i18n" data-pt="Solução para um desafio da Residência Fullstack, um sistema em Java que identifique possíveis golpes. 
                         <br><br> Começamos o projeto com um fluxograma, estruturando como seria o fluxo do sistema. <br><br> 
-                        Principais funcionalidades:"
-                                data-en="Solution to a Fullstack Residency challenge: a Java system that identifies potential scams. <br><br> We started the project with a flowchart, structuring how the system flow would work. <br><br> Main features:">
-                                Solução para um desafio da Residência Fullstack, um sistema em Java que identifique
-                                possíveis golpes.
-                                <br><br> Começamos o projeto com um fluxograma, estruturando como seria o fluxo do
+                        Principais funcionalidades:" Solução para um desafio da Residência Fullstack, um sistema em
+                                Java que identifique possíveis golpes. <br><br> Começamos o projeto com um fluxograma,
+                                estruturando como seria o fluxo do
                                 sistema. <br><br>
                                 Principais funcionalidades:
                             </p>
 
                             <ul class="project-highlights">
-                                <li class="i18n"
-                                </li>
-                                
+                                <li class="i18n" </li>
+
                             </ul>
 
                             <div class="project-stack">
                                 <span>PostgreSQL</span>
                             </div>
                             <div class="project-links">
-                                <a href="#" target="_blank"
-                                    rel="noopener" class="i18n" data-pt="→ Repositório" data-en="→ Repository">→
+                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
                                     Repositório</a>
                             </div>
                         </div>
@@ -275,13 +235,14 @@
         </section>
 
 
-        <section class="wrap" id="contact">
-            <h2 class="section-title i18n" data-pt="Contato" data-en="Contact">Contato</h2>
-            <div class="contact-links">
+        <section class="contatos" id="contact">
+            <h2 data-pt="Contato">Contato</h2>
+            <div class="contato-links">
                 <a class="underline" href="mailto:luanasantos.inf@gmail.com">luanasantos.inf@gmail.com</a>
                 <a href="https://www.linkedin.com/in/luanasantos-inf/" target="_blank"
                     rel="noopener">https://www.linkedin.com/in/luanasantos-inf/</a>
-                <a href="https://github.com/luanasantos-inf" target="_blank" rel="noopener">www.github.com/luanasantos-inf</a>
+                <a href="https://github.com/luanasantos-inf" target="_blank"
+                    rel="noopener">www.github.com/luanasantos-inf</a>
             </div>
         </section>
     </main>
