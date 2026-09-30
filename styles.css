@@ -33,7 +33,6 @@ button {
   cursor: pointer;
 }
 
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -89,7 +88,7 @@ header {
 }
 
 .frase-bio {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, sans-serif;
   color: #fff;
   font-size: 1.5rem;
   max-width: 54ch;
@@ -106,7 +105,7 @@ header {
 .nav-links a {
   font-size: 1rem;
   color: var(--texto);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--cor-textos);
@@ -115,7 +114,7 @@ header {
 .nav-links a:hover {
   font-size: 1rem;
   color: var(--cor-titulos);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, sans-serif;
 }
 
 .nav-ctrls {
@@ -219,13 +218,10 @@ header {
 .hero-photo {
   aspect-ratio: 1/1;
   width: 100%;
-  background: linear-gradient(150deg, var(--panel-2), var(--panel));
-  border: 1px solid var(--border);
-  clip-path: polygon(0 0, 100% 0, 100% 78%, 78% 100%, 0 100%);
+  border: 1px solid var(--cor-titulos);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--muted);
   font-size: 0.85rem;
   text-align: center;
   padding: 1rem;
