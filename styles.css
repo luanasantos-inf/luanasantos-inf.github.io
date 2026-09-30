@@ -91,6 +91,7 @@ header {
 .frase-bio {
   font-family: 'Times New Roman', Times, serif;
   color: #fff;
+  font-size: 1.5rem;
   max-width: 54ch;
   margin-bottom: 1.6rem;
 }
@@ -621,11 +622,10 @@ header {
 
 .contato-links a:hover img {
   filter: brightness(0) saturate(100%)
-          invert(32%) sepia(98%)
-          saturate(1500%) hue-rotate(190deg);
+          invert(86%) sepia(15%)
+          saturate(1000%) hue-rotate(115deg)
+          brightness(105%) contrast(105%);
 }
-
-
 
 footer {
   font-family: var(--fonte-titulos);
