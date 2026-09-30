@@ -66,6 +66,7 @@ header {
   gap: 1rem;
   padding: 1.1rem clamp(1rem, 4vw, 2rem);
   box-sizing: border-box;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -100,21 +101,18 @@ header {
   align-items: center;
   gap: 2rem;
   color: var(--cor-textos);
+  font-family: var(--fonte-titulos);
 }
 
 .nav-links a {
   font-size: 1rem;
-  color: var(--texto);
-  font-family: 'Times New Roman', Times, sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
   color: var(--cor-textos);
 }
 
 .nav-links a:hover {
   font-size: 1rem;
   color: var(--cor-titulos);
-  font-family: 'Times New Roman', Times, sans-serif;
 }
 
 .nav-ctrls {
