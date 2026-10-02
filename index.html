@@ -17,222 +17,192 @@
 </head>
 
 <body>
-    <header>
-        <div class="wrap nav">
-            <div class="logo">&lt;/Luana Santos&gt;</div>
-            <nav class="nav-links" id="nav-links">
+<header>
+    <div class="nav">
+
+        <a href="#inicio" class="logo-link">
+            <div class="logo">&lt;Luana Santos&gt;</div>
+        </a>
+
+        <nav class="nav-bar">
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <label for="nav-toggle" class="nav-label">
+                ☰
+            </label>
+
+            <div class="menu">
                 <a href="#habilidades">Habilidades</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
-            </nav>
-            <div class="nav-ctrls">
-                <button class="ctrl-btn" id="lang-toggle" type="button" aria-label="Switch language">🇧🇷</button>
-                <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu">☰</button>
             </div>
-        </div>
-    </header>
+
+        </nav>
+
+    </div>
+</header>
 
     <main class="container">
-        <section class="wrap hero" id="home">
+        <!----------------- HERO -------------------------->
+        <section class="hero" id="inicio">
             <div>
-                <h1 class="nome-bio">Olá, eu sou a Luana Santos!</h1>
+                <h1 class="nome-bio">
+                    Olá, eu sou a Luana Santos.
+                </h1>
+
                 <p class="frase-bio">
-                    Da infraestrutura ao código e à interface: criando soluções digitais completas de ponta a ponta.
+                    Da infraestrutura ao código e à interface, transformo ideias
+                    em soluções digitais completas, funcionais e bem estruturadas.
                 </p>
+
                 <div class="tags">
-                    <span class="tag">
-                        Sistemas para Internet — IFRS
-                    </span>
-                    <span class="tag">
-                        Téc. em Redes de Computadores — SENAI
-                    </span>
-                    <span class="tag">
-                        Téc. em Informática — Alcides Maya
-                    </span>
-                    <span class="tag">
-                        Certificado profissional de Suporte em TI — JA Brasil
-                    </span>
-                    <span class="tag">
-                        Residência Fullstack — Instituto Eldorado
-                    </span>
+                    <span class="tag">Sistemas para Internet — IFRS</span>
+                    <span class="tag">Residência Full Stack — Instituto Eldorado</span>
+                    <span class="tag">Téc. em Redes — SENAI</span>
+                    <span class="tag">Téc. em Informática — Alcides Maya</span>
+                    <span class="tag">Suporte em TI — JA Brasil</span>
+                    <span class="tag">Espanhol A1 — UFRGS</span>
                 </div>
             </div>
-            <img class="hero-photo" src="./Luana Santos.webp" alt="Foto de Luana Santos">
+
+            <div class="hero-image-wrapper">
+                <img src="Luana Santos.webp" alt="Luana Santos" class="hero-photo">
+                <span class="hero-decoration"></span>
+            </div>
+
         </section>
 
-        <!-- ================= habilidades ================= -->
-        <section class="wrap" id="skills">
+        <!-- ================= HABILIDADES ================= -->
+        <section class="skills" id="habilidades">
             <h2 class="titulo-secoes" data-pt="Habilidades">Habilidades</h2>
 
-            <div class="skills-grid" id="skills-grid">
+            <div class="skills-grid">
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-glyphs/90/FFFFFF/figma.png"
                         alt="figma" />
+                        <span>Figma</span>
                 </div>
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/html-5--v1.png"
                         alt="html5" />
+                        <span>HTML 5</span>
                 </div>
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/css3.png"
                         alt="css3" />
+                        <span>CSS 3</span>
                 </div>
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios/100/FFFFFF/bootstrap.png"
                         alt="bootstrap" />
+                        <span>Bootstrap</span>
                 </div>
-               
+
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/javascript.png"
                         alt="javascript" />
+                        <span>JavaScript</span>
                 </div>
                 <div class="skill-card">
                     <img width="90" height="90" src="https://img.icons8.com/ios-glyphs/90/FFFFFF/react.png"
                         alt="react" />
+                        <span>React</span>
                 </div>
 
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios/100/FFFFFF/github--v1.png"
                         alt="github" />
+                        <span>GitHub</span>
                 </div>
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/git.png"
                         alt="git" />
+                        <span>GIT</span>
                 </div>
 
-                 <div class="skill-card">
+                <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/c.png"
-                    alt="c-logo" />
+                        alt="c-logo" />
+                        <span>Linguagem C</span>
                 </div>
 
                 <div class="skill-card">
                     <img width="100" height="100" src="https://img.icons8.com/windows/96/FFFFFF/c-sharp-logo.png"
-                    alt="c-sharp-logo"/>
+                        alt="c-sharp-logo" />
+                        <span>Linguagem C#</span>
                 </div>
 
-                <div class="skill-card">
+                <!--<div class="skill-card">
 
-                </div>
-                <div class="skill-card">
+                </div>-->
 
-                </div>
-                <div class="skill-card">
-
-                </div>
-                <div class="skill-card">
-
-                </div>
-                <div class="skill-card">
-
-                </div>
-                <div class="skill-card">
-
-                </div>
             </div>
         </section>
 
 
         <!-- ================= PROJECTS ================= -->
-        <section class="wrap" id="projects">
-            <h2 class=".titulo-secoes" data-pt="Projetos">Projetos</h2>
-            <div class="carousel-wrap">
-                <button class="carousel-btn prev" id="carousel-prev" aria-label="Anterior">←</button>
-                <div class="carousel" id="carousel">
-                    <article class="project-card">
-                        <div class="project-body">
-                            <h3 class="i18n" data-pt="Gestão Financeira">Gestão
-                                Financeira</h3>
-                            <p class="i18n" data-pt="Banco de dados para registro e organização de gastos pessoais.">
-                                Banco de dados para registro e organização de gastos pessoais.
-                            </p>
-                            <div class="project-divider"></div>
-                            <div class="project-stack">
-                                <span>PostgreSQL</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
-                                    Repositório</a>
-                            </div>
-                        </div>
+        <section class="projetos" id="projetos">
 
-                        <div class="project-detail" hidden>
-                            <h3 class="i18n" data-pt="Gestão Financeira">Gestão
-                                Financeira</h3>
+            <h2 class="titulo-secoes" data-pt="Projetos">Projetos</h2>
 
+            <article class="project-card">
+                <div class="project-body">
+                    <h3>Web Site Rock na Praça</h3>
 
-                            <ul class="project-highlights">
-                                <li class="i18n"
-                                    data-pt="<strong>Validação de Pagamentos:</strong> impede o registro no banco se a soma dos pagamentos por forma de pagamento diferente não for exatamente igual ao valor total da compra."
-                                    pagamentos por forma de pagamento diferente não for exatamente igual ao valor total
-                                    da compra. </li>
-                                <li class="i18n"
-                                    data-pt="<strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra. Se tiver, desconta o valor automaticamente; se não, bloqueia a operação."
-                                    <strong>Débito Automático:</strong> confere se o usuário tem saldo antes da compra.
-                                    Se tiver, desconta o valor automaticamente; se não, bloqueia a operação.
-                                </li>
-                            </ul>
+                    <p>
+                        Plataforma institucional e comercial desenvolvida para fortalecer a presença digital do evento
+                        Rock na Praça, centralizando inscrições, divulgação e vendas em um único ambiente.
+                    </p>
 
-                            <div class="project-stack">
-                                <span>Java 21</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
-                                    Repositório</a>
-                            </div>
-                        </div>
-                    </article>
+                    <div class="project-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
 
-                    <article class="project-card">
-                        <div class="project-body">
-                            <h3 class="i18n" data-pt="Detector de Golpe">Detector de Golpe</h3>
-                            <p class="i18n"
-                                data-pt="Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando um sistema de pontuação.">
-                                Sistema que identifica possíveis golpes a partir de palavras chave e links, utilizando
-                                um sistema de pontuação.
-                            </p>
-                            <div class="project-divider"></div>
-                            <div class="project-stack">
-                                <span>Java 21</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">
-                                    Repositório</a>
-                            </div>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/luanasantos-inf/Rock-na-praca" target="_blank"
+                            rel="noopener noreferrer" data-pt="→ Repositório"
+                            aria-label="Ver repositório do projeto Rock na Praça">
+                            Acesse o repositório aqui →
+                        </a>
+                    </div>
 
-                        <div class="project-detail" hidden>
-                            <h3 class="i18n" data-pt="Detector de Golpe">Detector de Golpe</h3>
-
-                            <p class="i18n" data-pt="Solução para um desafio da Residência Fullstack, um sistema em Java que identifique possíveis golpes. 
-                        <br><br> Começamos o projeto com um fluxograma, estruturando como seria o fluxo do sistema. <br><br> 
-                        Principais funcionalidades:" Solução para um desafio da Residência Fullstack, um sistema em
-                                Java que identifique possíveis golpes.<br> Começamos o projeto com um fluxograma,
-                                estruturando como seria o fluxo do
-                                sistema. <br><br>
-                                Principais funcionalidades:
-                            </p>
-
-                            <ul class="project-highlights">
-                                <li class="i18n" </li>
-
-                            </ul>
-
-                            <div class="project-stack">
-                                <span>PostgreSQL</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" target="_blank" rel="noopener" class="i18n" data-pt="→ Repositório">→
-                                    Repositório</a>
-                            </div>
-                        </div>
-                    </article>
                 </div>
-                <button class="carousel-btn next" id="carousel-next" aria-label="Próximo">→</button>
-            </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-body">
+                    <h3>Simulador de Parcelas</h3>
+
+                    <p>
+                        O Simulador de Parcelas é uma aplicação web desenvolvida para facilitar o cálculo de pagamentos
+                        parcelados, com ou sem acréscimo de juros.
+                    </p>
+
+                    <div class="project-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/luanasantos-inf/Simulador-de-parcela" target="_blank"
+                            rel="noopener noreferrer" data-pt="→ Repositório"
+                            aria-label="Ver repositório do Simulador de parcela">
+                            Acesse o repositório aqui →
+                        </a>
+                    </div>
+
+                </div>
+            </article>
+
         </section>
 
 
-        <section class="contatos" id="contact">
+        <section class="secao contatos" id="contato">
             <h2 data-pt="Contato">Contato</h2>
             <div class="contato-links">
 
@@ -251,20 +221,10 @@
                 </a>
 
             </div>
+            <a href="#inicio" class="to-top" aria-label="Voltar ao topo">↑</a>
+            <div class="fechar">&lt;/Luana Santos&gt;</div>
         </section>
     </main>
-
-    <footer>&lt;/Luana Santos&gt;</footer>
-
-    <button class="to-top" id="to-top" aria-label="Voltar ao topo">↑</button>
-
-    <!-- popup de detalhes do projeto -->
-    <div class="modal-overlay" id="project-modal">
-        <div class="modal-box">
-            <button class="modal-close" id="project-modal-close" aria-label="Fechar">✕</button>
-            <div id="project-modal-body"></div>
-        </div>
-    </div>
 
 </body>
 
