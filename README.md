@@ -13,12 +13,4 @@ O projeto foi desenvolvido com foco em **design responsivo, organização, acess
 
 ## 🌐 Acesse o portfólio
 
-👉 [luanasantos-inf.github.io](https://luanasantos-inf.github.io/)
-
-## 👩‍💻 Sobre
-
-Sou profissional de Tecnologia da Informação e estudante de **Sistemas para Internet**, em constante aprendizado e aprimoramento no desenvolvimento web.
-
----
-
-✨ Desenvolvido por **Luana Santos**
+👉 👉 **[Clique aqui para acessar o portifólio](https://luanasantos-inf.github.io/)**
